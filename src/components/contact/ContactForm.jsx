@@ -40,6 +40,13 @@ const handleSubmit = async (e) => {
     } catch (error) {
       console.error('An error occurred:', error);
     }
+
+    setForm({
+      name: " ",
+      email: " ",
+      phone: " ",
+      message: " ",
+   })
 }
 
   return (

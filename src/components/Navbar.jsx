@@ -27,7 +27,7 @@ const Navbar = () => {
             <span>TU</span>
             <span>RA</span>
          </div>
-         <HiMenuAlt1  className=' md:hidden text-3xl cursor-pointer' onClick={ () => setOpenMenu(!openMenu)}/>
+         <HiMenuAlt1  className=' md:hidden text-3xl cursor-pointer' onClick={ () => setOpenMenu(!openMenu)} />
          <ul className=' hidden gap-12 font-semibold md:flex'>
             <li className=' text-xs'>
               PROJECTS
